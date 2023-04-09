@@ -1,0 +1,6 @@
+#cal{
+    transition: .5s ease-in-out;
+}
+#cal:hover{
+    transform: scale(1.02);
+}

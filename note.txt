@@ -1,0 +1,65 @@
+React
+------
+
+Create -  npx create-react-app (filename)
+Run - npm start
+
+Building blocks of react
+--------------------------
+Html, CSS, Js
+
+Difference between angular and react
+--------------------------------------
+Angular                  |               React
+---------                |              --------------
+framework of js          |              library of js
+real DOM                 |              Virtual DOM
+
+Advantages of React
+---------------------
+1. React uses virtual dom(faster)
+2. Reusable components
+3. jsx (javascript xml) 
+
+components in react
+---------------------
+1. Class based
+2. function based
+other 2 types are statefull-which has state and stateless-which dont have state components
+
+React hooks
+
+state
+------
+object used to store datas inside a component in react
+useState is the hook used in react to create state
+
+props  (shortform of properties)
+------
+to share datas from parent to child component
+destructuring is used to avoid props
+
+API call in js
+---------------
+Ajax
+-----
+3 methods-
+XmlHttp
+fetch
+asynch await
+
+first working hook of a component
+----------------------------------
+useEffect- React
+
+Redirection/Routing in React
+------------------------------
+react-router-dom  - library used for Routing
+
+Browser router - wrap the main component inside browser router component
+Route - wrap the component inside Router which need Redirection
+Routes - wrap all the Router if we set more than one component paths
+
+Link- a component in react-router-dom used for Redirection (like navigate by url in angular)
+
+useParams - hook in react-router-dom used to access params

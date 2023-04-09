@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div>
 <Row>
-    <Col className='text-center bg-dark'>
-    <p>All Rights are reserved to <strong>FoodMine</strong></p>
+    <Col className='text-center'>
+    <p><strong>All Rights are reserved to House of Blossoms</strong></p>
     </Col>
 </Row>
     </div>

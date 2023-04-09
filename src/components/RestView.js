@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Review from './Review';
 import OperatingTime from './OperatingTime';
+import './Restcardd.css'
 
 function RestView() {
   
@@ -33,15 +34,15 @@ function RestView() {
     {
       restaurant?(
       <Row>
-       <Col lg={6} md={6} className='p-5 pt-5 pb-5 ms-5 text-center'>
+       <Col id='cal' lg={6} md={6} className='p-5 pt-5 pb-5 ms-5 text-center'>
          <img className='rounded border' style={{height:'600px'}} src={restaurant.photograph}/>
        </Col>
-       <Col className='p-5 ms-5 text-center'>
-       <ListGroup className>
-      <ListGroup.Item>{restaurant.name}</ListGroup.Item>
-      <ListGroup.Item>{restaurant.cuisine_type}</ListGroup.Item>
-      <ListGroup.Item>{restaurant.neighborhood}</ListGroup.Item>
-      <ListGroup.Item>{restaurant.address}</ListGroup.Item>
+       <Col id='cal' className='me-5 mt-5' >
+       <ListGroup variant='flush'>
+      <ListGroup.Item><h2 className='text-primary'>{restaurant.name}</h2></ListGroup.Item>
+      <ListGroup.Item><p> <strong>Price :-</strong>{restaurant.price} </p></ListGroup.Item>
+      <ListGroup.Item><p> <strong>Imported Date :-</strong>{restaurant.imported} </p></ListGroup.Item>
+      <ListGroup.Item><p> <strong>Longivity:-</strong>{restaurant.longivity} </p></ListGroup.Item>
       <ListGroup.Item>
         <div className='mt-4'><OperatingTime timeData={restaurant.operating_hours}></OperatingTime></div>
         <div className='mt-3'><Review timeDat={restaurant.reviews}></Review></div>

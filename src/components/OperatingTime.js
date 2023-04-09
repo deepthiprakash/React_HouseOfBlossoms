@@ -10,12 +10,12 @@ function OperatingTime({timeData}) {
   return (
     <div>
      <Button variant="primary" onClick={handleShow}>
-       Operating Hours
+       Availability
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Operating Hours</Modal.Title>
+          <Modal.Title> Availability</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <ListGroup>

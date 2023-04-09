@@ -8,15 +8,15 @@ function Restcard({restdata}) {
     <div>
       <Link to={`/view-restaurant/${restdata.id}`} style={{textDecoration:"none",color:"white"}}>
          <Card id='cal' style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={restdata.photograph} />
+      <Card.Img variant="top" src={restdata.photograph} style={{height:"400px"}} />
       <Card.Body>
         <Card.Title className='text-center border p-3'>{restdata.name}</Card.Title>
         <Card.Text>
           <p>
-           <strong>cuisine Type</strong> {restdata.cuisine_type}
+           <strong>Price :- </strong> {restdata.price}
           </p>
           <p>
-           <strong>Neighborhood</strong> {restdata.neighborhood}
+           <strong>Imported Date :- </strong> {restdata.imported}
           </p>
         </Card.Text>
       </Card.Body>

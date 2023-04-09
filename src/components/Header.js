@@ -10,12 +10,12 @@ function Header() {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src="/logo.png"
+              src="/logo2.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            FoodMine
+            House of Blossoms
           </Navbar.Brand>
         </Container>
       </Navbar>

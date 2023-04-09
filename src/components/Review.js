@@ -20,9 +20,9 @@ function Review({timeDat}) {
             {
                 timeDat.map(item=>(
                 <div style= {{width:'300px'}}>
-                   <h6> {item.name}:{item.date}</h6>
-                   <p>Rating{item.rating}</p>
-                   <p>Comments{item.comments}</p>
+                   <h6> ***{item.name}:{item.date}***</h6>
+                   <p>Rating:{item.rating}</p>
+                   <p>Comments:{item.comments}</p>
                 </div>
 
                 ))
